@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.carousel-inner {
+  position: relative;
+}
+
+.parent {
+  padding: 8px 16px;
+  width: 35%;
+  position: absolute;
+  top: 37%;
+  left: 0;
+}
+.child1 {
+  background-color: #000;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: #fff;
+  padding: 16px 24px;
+  text-align: center;
+}
+.child1:hover {
+  opacity: 1;
+}
+.child2 {
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  background-color: #000;
+  color: white;
+}
+.child2:hover {
+  color: black;
+  background-color: #f1f1f1;
+}
+.three {
+  margin-left: 100px;
+}
+.opacity {
+  opacity: 0.6;
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0px;
+}
+.h1 {
+  font-size: 24px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.w3-button {
+  background-color: #4caf50 !important;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+}
+.w3-button2 {
+  background-color: #f44336 !important;
+}
+.w3-button3 {
+  background-color: #3f51b5 !important;
+}
+.grandparent {
+  padding: 64px 8px;
+  display: flex;
+}
+.child3 {
+  width: calc(100% - 345px);
+  padding: 0px 8px;
+}
+.child4 {
+  width: 345px;
+  padding: 0px 8px;
+}
+#midh1 {
+  margin: 10px 0px;
+}
+#midh2 {
+  margin: 10px 0px;
+  color: #4caf50;
+  font-size: 48px;
+}
+.button {
+  border: none;
+  margin: 16px 0px;
+  padding: 12px 24px;
+  color: black;
+  background-color: #f1f1f1;
+  font-size: 16px;
+}
+.button:hover {
+  color: black;
+  background-color: lightgray;
+}
+.fa2 {
+  font-size: 24px !important;
+}
+p {
+  margin: 16px 0px;
+}
+.pmargin {
+  margin: 16px 0px;
+  margin-right: 100px;
+}
+#img {
+  filter: grayscale(75%);
+}
+.h1-red {
+  color: #f44336;
+  font-size: 48px;
+}
+
+.grandparent3 {
+  padding: 64px 16px;
+  text-align: center;
+  color: #fff;
+}
+.child25 {
+  width: 25%;
+}
+.flex {
+  display: flex;
+  margin-top: 64px;
+}
+.w3-jumbo {
+  font-size: 64px !important  ;
+}
+.grandparent4 {
+  padding: 64px 8px;
+
+  text-align: center;
+}
+
+.icon {
+  font-size: 25px !important;
+}
+
+.lastdiv {
+  opacity: 0.6;
+  margin-top: 32px;
+  color: #000;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 64px 0px;
+}
+.text-green {
+  color: black;
+}
+.text-green:hover {
+  color: green;
+}
+.flex5 {
+  display: flex;
+}
+.child8 {
+  padding-bottom: 0px!important;
+  margin-bottom: 0 !important;
+  width: 50%;
+  margin: 0px 8px;
+  padding-bottom: 0PX ;
+  padding-top: 0PX;
+}
+.child8:hover {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 22%), 0 2px 10px 0 rgb(0 0 0 / 22%);
+}
+ul {
+  margin-bottom: 0px!important;
+  padding-left: 0 !important;
+  padding: 0%;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.li1 {
+  font-size: 24px;
+  padding: 32px 16px;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  background-color: #616161;
+}
+.li2 {
+  font-size: 24px;
+  padding: 32px 16px;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  background-color: #f44336;
+}
+li {
+  padding: 16px;
+  list-style: none;
+  text-align: center;
+
+  border-bottom: 1px solid #ddd;
+}
+.lastli {
+  background-color: #f1f1f1;
+}
+.Downloadbutton {
+  font-size: 16px;
+  background-color: #000;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+}
+.Downloadbutton:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.span {
+  font-size: 15px;
+  color: #757575;
+}
+.fa-download {
+  font-size: inherit !important;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grandparent{
+    flex-direction: column;
+  }
+  .child1{
+    display: none;
+  }
+.flex5{
+flex-direction: column;
+padding: 0px 24px;
+margin-left: 0;
+}
+.child3{
+  width: 100%;
+}
+.child4{
+  width: 100%;
+}
+.three{
+  margin-left: 0px;
+}
+.pmargin{
+  margin-right: 0px;
+}
+.lastdiv{
+  margin: 0;
+}
+.child8{
+  margin-left: 0px;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 0px!important;
+}
+.child4{
+  text-align: center;
+}
+.lastdiv{
+  padding: 12px 0px;
+}
+.grandparent4{
+  padding: 48px 0px;
+}
+.imgdnone{
+  display: none;
+}
+}
